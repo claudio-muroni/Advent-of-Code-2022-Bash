@@ -1,6 +1,7 @@
 #!/bin/bash
 
-file="Input_Day01_1.txt"
+file="Test_Input_Day01_1.txt"
+echo "" >> $file
 
 totCal=0
 maxCal=0
