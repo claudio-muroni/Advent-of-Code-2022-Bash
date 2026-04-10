@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file="Test_Input_Day01_1.txt"
+file="Input_Day01_1.txt"
 echo "" >> $file
 
 totCal=0
