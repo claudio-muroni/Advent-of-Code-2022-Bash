@@ -1,8 +1,8 @@
 #!/bin/bash
 
-file="Test_Input_Day03_1.txt"
+file="Input_Day03_1.txt"
 
-alphabet="_abcdefghikjlmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+alphabet="_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 tot=0
 
 while read -r line; do
