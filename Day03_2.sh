@@ -10,11 +10,13 @@ mapfile lines < $file
 i=0
 while [ $i -le ${#lines[@]} ]; do
 	line=${lines[i]}
-
+	echo $line
+	echo ${lines[j+1]}
+	echo ${lines[j+2]}
 	for (( j=0; j<${#line}; j++ )); do
 
 		c=${line:$j:1}
-		if [[ ${line[j+1]} =~ $c && ${line[j+2]} =~ $c ]]; then
+		if [[ ${lines[j+1]} =~ $c && ${lines[j+2]} =~ $c ]]; then
 			echo $c
 			break
 		fi
